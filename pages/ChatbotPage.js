@@ -1,0 +1,127 @@
+class ChatbotPage {
+
+    constructor(page) {
+
+        this.page = page;
+
+        // Chat Open Button
+        this.chatButton =
+            page.locator('#lm-chat-button');
+
+        // Input Box
+        this.messageInput =
+            page.getByRole(
+                'textbox',
+                { name: 'Type a message...' }
+            );
+
+        // Bot Responses
+        this.botResponses =
+            page.locator(
+                '.lm-message.bot .lm-bubble'
+            );
+    }
+
+    async navigate() {
+
+        await this.page.goto(
+            'https://test2.logimeter.com/jetour.html'
+        );
+    }
+
+    async openChatbot() {
+
+        await this.chatButton.waitFor({
+            state: 'visible'
+        });
+
+        await this.chatButton.click();
+    }
+
+    async sendMessage(message) {
+
+        await this.messageInput.waitFor({
+            state: 'visible'
+        });
+
+        await this.messageInput.click();
+        await this.messageInput.focus();
+
+        await this.messageInput.fill('');
+
+        await this.messageInput.type(message, {
+            delay: 50
+        });
+
+        // Send using ENTER
+        await this.messageInput.press('Enter');
+    }
+
+    async getAllResponses() {
+
+        return await this.botResponses
+            .allTextContents();
+    }
+
+    async waitForNewResponse(oldCount) {
+
+        // Wait until a new bot response appears
+        await this.page.waitForFunction(
+            (count) => {
+
+                const messages =
+                    document.querySelectorAll(
+                        '.lm-message.bot .lm-bubble'
+                    );
+
+                const validMessages =
+                    [...messages].filter(
+                        msg =>
+                            msg.textContent.trim() !== ''
+                    );
+
+                return validMessages.length > count;
+
+            },
+            oldCount,
+            {
+                timeout: 120000
+            }
+        );
+
+        // Wait until response becomes stable
+        let previousText = '';
+        let stableCount = 0;
+
+        while (stableCount < 5) {
+
+            const responses =
+                await this.botResponses
+                    .allTextContents();
+
+            const latestText =
+                responses[
+                responses.length - 1
+                ] || '';
+
+            if (
+                latestText.trim() ===
+                previousText.trim()
+            ) {
+
+                stableCount++;
+
+            } else {
+
+                stableCount = 0;
+                previousText = latestText;
+            }
+
+            await this.page.waitForTimeout(
+                1000
+            );
+        }
+    }
+}
+
+module.exports = { ChatbotPage };

@@ -1,0 +1,206 @@
+[
+  {
+    "testCaseId": "TC-RA-001",
+    "category": "Service Scope Policy",
+    "message": "What services are included?",
+    "keywords": ["services", "roadside", "coverage"]
+  },
+  {
+    "testCaseId": "TC-RA-002",
+    "category": "Service Availability SLA",
+    "message": "Is roadside assistance available 24/7?",
+    "keywords": ["24/7", "availability", "hotline"]
+  },
+  {
+    "testCaseId": "TC-RA-003",
+    "category": "Customer Support Process",
+    "message": "How do I request assistance?",
+    "keywords": ["request", "hotline", "app"]
+  },
+  {
+    "testCaseId": "TC-RA-004",
+    "category": "Membership Eligibility Policy",
+    "message": "Who is covered under my plan?",
+    "keywords": ["coverage", "registered vehicle", "owner"]
+  },
+  {
+    "testCaseId": "TC-RA-005",
+    "category": "Coverage Exceptions Policy",
+    "message": "Does coverage apply to rental cars?",
+    "keywords": ["rental", "coverage", "eligibility"]
+  },
+  {
+    "testCaseId": "TC-RA-006",
+    "category": "Membership Usage Policy",
+    "message": "Is there a limit to service calls?",
+    "keywords": ["limit", "service calls", "usage"]
+  },
+  {
+    "testCaseId": "TC-RA-007",
+    "category": "Membership Benefits Policy",
+    "message": "Is roadside assistance free?",
+    "keywords": ["free", "membership", "benefits"]
+  },
+  {
+    "testCaseId": "TC-RA-008",
+    "category": "Towing Distance Policy",
+    "message": "Will I be charged for towing beyond distance?",
+    "keywords": ["towing", "distance", "charges"]
+  },
+  {
+    "testCaseId": "TC-RA-009",
+    "category": "Towing Coverage Policy",
+    "message": "How far will my vehicle be towed?",
+    "keywords": ["towing", "distance", "vehicle"]
+  },
+  {
+    "testCaseId": "TC-RA-010",
+    "category": "Customer Choice Policy",
+    "message": "Can I choose the repair shop?",
+    "keywords": ["repair shop", "choice", "towing"]
+  },
+  {
+    "testCaseId": "TC-RA-011",
+    "category": "Safety Guidelines",
+    "message": "What should I do while waiting?",
+    "keywords": ["safety", "waiting", "vehicle"]
+  },
+  {
+    "testCaseId": "TC-RA-012",
+    "category": "Service Level Agreement (SLA)",
+    "message": "How long does it take for help to arrive?",
+    "keywords": ["response", "30", "60"]
+  },
+  {
+    "testCaseId": "TC-RA-013",
+    "category": "Membership Renewal Policy",
+    "message": "How do I renew/upgrade my plan?",
+    "keywords": ["renew", "upgrade", "membership"]
+  },
+  {
+    "testCaseId": "TC-RA-014",
+    "category": "Membership Transfer Policy",
+    "message": "Can I transfer coverage to another vehicle?",
+    "keywords": ["transfer", "coverage", "vehicle"]
+  },
+  {
+    "testCaseId": "TC-RA-015",
+    "category": "General Service",
+    "message": "What services are included in roadside assistance?",
+    "keywords": ["towing", "battery", "flat tire", "lockout", "fuel"]
+  },
+  {
+    "testCaseId": "TC-RA-016",
+    "category": "General Service",
+    "message": "Is roadside assistance available 24/7?",
+    "keywords": ["24", "1-800-JETOUR"]
+  },
+  {
+    "testCaseId": "TC-RA-017",
+    "category": "General Service",
+    "message": "How do I request roadside assistance?",
+    "keywords": ["1-800-JETOUR", "roadside", "assistance"]
+  },
+  {
+    "testCaseId": "TC-RA-018",
+    "category": "General Service",
+    "message": "What information should I provide when calling for help?",
+    "keywords": ["name", "contact", "location", "vehicle", "registration"]
+  },
+  {
+    "testCaseId": "TC-RA-019",
+    "category": "Coverage & Eligibility",
+    "message": "Who is covered under my roadside assistance plan?",
+    "keywords": ["registered", "vehicle", "authorized driver"]
+  },
+  {
+    "testCaseId": "TC-RA-020",
+    "category": "Coverage & Eligibility",
+    "message": "Does roadside assistance cover rental cars or borrowed vehicles?",
+    "keywords": ["rental", "borrowed", "not"]
+  },
+  {
+    "testCaseId": "TC-RA-021",
+    "category": "Coverage & Eligibility",
+    "message": "Is there a limit to the number of service calls per year?",
+    "keywords": ["limit", "service", "request"]
+  },
+  {
+    "testCaseId": "TC-RA-022",
+    "category": "Coverage & Eligibility",
+    "message": "Are motorcycles or trailers covered?",
+    "keywords": ["motorcycle", "trailer", "not"]
+  },
+  {
+    "testCaseId": "TC-RA-023",
+    "category": "Costs & Payments",
+    "message": "Is roadside assistance free with my insurance or membership?",
+    "keywords": ["warranty", "insurance", "membership"]
+  },
+  {
+    "testCaseId": "TC-RA-024",
+    "category": "Costs & Payments",
+    "message": "Will I be charged extra for towing beyond a certain distance?",
+    "keywords": ["towing", "distance", "coverage"]
+  },
+  {
+    "testCaseId": "TC-RA-025",
+    "category": "Costs & Payments",
+    "message": "Do I need to pay the service provider directly?",
+    "keywords": ["pay", "service provider", "directly"]
+  },
+  {
+    "testCaseId": "TC-RA-026",
+    "category": "Towing & Repairs",
+    "message": "How far will my vehicle be towed at no cost?",
+    "keywords": ["towing", "coverage", "plan"]
+  },
+  {
+    "testCaseId": "TC-RA-027",
+    "category": "Towing & Repairs",
+    "message": "Can I choose the repair shop or dealership for towing?",
+    "keywords": ["repair shop", "dealership", "towing"]
+  },
+  {
+    "testCaseId": "TC-RA-028",
+    "category": "Towing & Repairs",
+    "message": "Does roadside assistance cover repair costs?",
+    "keywords": ["repair", "cost", "roadside assistance"]
+  },
+  {
+    "testCaseId": "TC-RA-029",
+    "category": "Emergencies & Safety",
+    "message": "What should I do while waiting for roadside assistance?",
+    "keywords": ["safe", "hazard", "vehicle"]
+  },
+  {
+    "testCaseId": "TC-RA-030",
+    "category": "Emergencies & Safety",
+    "message": "How long does it usually take for help to arrive?",
+    "keywords": ["30", "60", "minutes"]
+  },
+  {
+    "testCaseId": "TC-RA-031",
+    "category": "Emergencies & Safety",
+    "message": "Is roadside assistance available in remote or rural areas?",
+    "keywords": ["remote", "rural", "response"]
+  },
+  {
+    "testCaseId": "TC-RA-032",
+    "category": "Membership & Policy",
+    "message": "How do I renew or upgrade my roadside assistance plan?",
+    "keywords": ["renew", "upgrade", "customer service"]
+  },
+  {
+    "testCaseId": "TC-RA-033",
+    "category": "Membership & Policy",
+    "message": "Can I transfer my roadside assistance to another vehicle?",
+    "keywords": ["transfer", "vehicle", "VIN"]
+  },
+  {
+    "testCaseId": "TC-RA-034",
+    "category": "Membership & Policy",
+    "message": "What happens if I sell my car—does coverage transfer to the new owner?",
+    "keywords": ["coverage", "transfer", "owner"]
+  }
+]
