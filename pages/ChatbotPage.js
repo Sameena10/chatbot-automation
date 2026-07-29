@@ -4,18 +4,17 @@ class ChatbotPage {
 
         this.page = page;
 
-        // Chat Open Button
         this.chatButton =
             page.locator('#lm-chat-button');
 
-        // Input Box
+
         this.messageInput =
             page.getByRole(
                 'textbox',
                 { name: 'Type a message...' }
             );
 
-        // Bot Responses
+
         this.botResponses =
             page.locator(
                 '.lm-message.bot .lm-bubble'
@@ -53,7 +52,6 @@ class ChatbotPage {
             delay: 50
         });
 
-        // Send using ENTER
         await this.messageInput.press('Enter');
     }
 
@@ -65,7 +63,6 @@ class ChatbotPage {
 
     async waitForNewResponse(oldCount) {
 
-        // Wait until a new bot response appears
         await this.page.waitForFunction(
             (count) => {
 

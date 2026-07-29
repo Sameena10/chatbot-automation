@@ -1,0 +1,344 @@
+{
+  "journey": "International Customer Browsing Inventory - Arabic to English",
+  "executionDate": "2026-07-16T13:15:19.245Z",
+  "totalTestCases": 16,
+  "passed": 16,
+  "failed": 0,
+  "passPercentage": 100,
+  "totalExecutionTimeInMs": 176815,
+  "testResults": [
+    {
+      "testCaseId": "TC-INT-001",
+      "question": "مرحبا",
+      "expectedKeywords": [
+        "مرحباً",
+        "جيتور",
+        "مساعدك",
+        "مساعدتك"
+      ],
+      "matchedKeywords": [
+        "جيتور",
+        "مساعدك",
+        "مساعدتك"
+      ],
+      "missingKeywords": [
+        "مرحباً"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "أهلاً بك في جيتور جنوب أفريقيا. أنا مساعدك الرقمي، كيف يمكنني مساعدتك اليوم؟ هل ترغب في شراء سيارة جديدة، أو حجز خدمة صيانة، أو البحث عن وكيل؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-002",
+      "question": "أريد معرفة سيارات مرسيدس AMG.",
+      "expectedKeywords": [
+        "جيتور",
+        "جنوب أفريقيا",
+        "متخصص",
+        "سيارات جيتور"
+      ],
+      "matchedKeywords": [
+        "جيتور",
+        "جنوب أفريقيا",
+        "سيارات جيتور"
+      ],
+      "missingKeywords": [
+        "متخصص"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "أعتذر، ولكنني أختص فقط بمساعدة العملاء فيما يتعلق بسيارات جيتور في جنوب أفريقيا. هل يمكنني مساعدتك في أي استفسار يخص طرازات جيتور المتوفرة لدينا؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-003",
+      "question": "ما هي الموديلات المتوفرة؟",
+      "expectedKeywords": [
+        "X70",
+        "X90",
+        "داشينج",
+        "جيتور"
+      ],
+      "matchedKeywords": [
+        "داشينج",
+        "جيتور"
+      ],
+      "missingKeywords": [
+        "X70",
+        "X90"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "تتوفر لدينا حالياً طرازات جيتور التالية:جيتور داشينججيتور إكس 70 بلسجيتور تي 2هل تود معرفة المزيد من التفاصيل حول أي من هذه الطرازات؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-004",
+      "question": "هل لديكم Mercedes-AMG C63؟",
+      "expectedKeywords": [
+        "أعتذر",
+        "جيتور",
+        "موديلات",
+        "جيتور"
+      ],
+      "matchedKeywords": [
+        "أعتذر",
+        "جيتور",
+        "جيتور"
+      ],
+      "missingKeywords": [
+        "موديلات"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "أعتذر منك، لكنني أختص فقط بسيارات جيتور في جنوب أفريقيا ولا أقدم معلومات عن سيارات مرسيدس. هل ترغب في معرفة المزيد عن طرازات جيتور المتوفرة لدينا؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-005",
+      "question": "ما هي الألوان المتوفرة؟",
+      "expectedKeywords": [
+        "الألوان",
+        "الموديل",
+        "اسمك",
+        "تفاصيل"
+      ],
+      "matchedKeywords": [
+        "الألوان"
+      ],
+      "missingKeywords": [
+        "الموديل",
+        "اسمك",
+        "تفاصيل"
+      ],
+      "matchPercentage": 25,
+      "actualResponse": "تختلف خيارات الألوان حسب طراز جيتور الذي تهتم به. هل يمكنك إخباري أي طراز تفضل، مثل داشينج أو إكس 70 بلس أو تي 2، لأزودك بالألوان المتاحة له؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-006",
+      "question": "هل لديكم سيارات SUV؟",
+      "expectedKeywords": [
+        "010",
+        "023",
+        "3273",
+        "jetour.co.za"
+      ],
+      "matchedKeywords": [
+        "010",
+        "023",
+        "3273",
+        "jetour.co.za"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-007",
+      "question": "هل يمكنني حجز تجربة قيادة؟",
+      "expectedKeywords": [
+        "تجربة قيادة",
+        "اسمك",
+        "الكامل",
+        "مساعدتك"
+      ],
+      "matchedKeywords": [
+        "تجربة قيادة",
+        "اسمك",
+        "الكامل",
+        "مساعدتك"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "بالطبع، يسعدني جداً مساعدتك في حجز تجربة قيادة لسيارة جيتور. لكي أتمكن من البدء، هل يمكنك تزويدي باسمك الكامل؟",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-008",
+      "question": "Can we continue in English?",
+      "expectedKeywords": [
+        "continue",
+        "English",
+        "Jetour",
+        "full name"
+      ],
+      "matchedKeywords": [
+        "continue",
+        "English",
+        "Jetour",
+        "full name"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Of course, we can continue in English.To help me assist you with your Jetour enquiry, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-009",
+      "question": "I'm looking for Mercedes-AMG models.",
+      "expectedKeywords": [
+        "Jetour",
+        "unable",
+        "Mercedes-AMG",
+        "SUV"
+      ],
+      "matchedKeywords": [
+        "Jetour",
+        "SUV"
+      ],
+      "missingKeywords": [
+        "unable",
+        "Mercedes-AMG"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I apologise, but I can only assist with Jetour vehicles in South Africa. Would you like me to provide information on our Jetour SUV range instead?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-010",
+      "question": "Do you have the AMG C63 in stock?",
+      "expectedKeywords": [
+        "Jetour",
+        "other brands",
+        "Mercedes-AMG",
+        "T2"
+      ],
+      "matchedKeywords": [
+        "Jetour",
+        "T2"
+      ],
+      "missingKeywords": [
+        "other brands",
+        "Mercedes-AMG"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I apologise, but I can only assist with Jetour vehicles. Would you like to explore our Jetour SUV range, such as the Dashing, X70 Plus, T1, or T2?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-011",
+      "question": "What colours are available?",
+      "expectedKeywords": [
+        "available colours",
+        "Jetour",
+        "model",
+        "palette"
+      ],
+      "matchedKeywords": [
+        "available colours",
+        "Jetour",
+        "model"
+      ],
+      "missingKeywords": [
+        "palette"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "The available colours depend on the specific Jetour model you are interested in. Could you please let me know which model you prefer so I can provide the correct colour catalogue for you?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-012",
+      "question": "Do you have any SUV models?",
+      "expectedKeywords": [
+        "SUVs",
+        "Dashing",
+        "X70 Plus",
+        "T2"
+      ],
+      "matchedKeywords": [
+        "SUVs",
+        "Dashing",
+        "X70 Plus",
+        "T2"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Yes, we have a fantastic range of SUVs available. Our current lineup includes the Dashing, X70 Plus, T1, and the T2.Would you like to know more about the features of one of these models?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-013",
+      "question": "Can I schedule a test drive?",
+      "expectedKeywords": [
+        "test drive",
+        "full name",
+        "Jetour",
+        "started"
+      ],
+      "matchedKeywords": [
+        "test drive",
+        "full name",
+        "started"
+      ],
+      "missingKeywords": [
+        "Jetour"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "I would be happy to help you arrange a test drive. To get started, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-014",
+      "question": "Can someone from sales contact me?",
+      "expectedKeywords": [
+        "sales team",
+        "callback",
+        "call",
+        "reach out"
+      ],
+      "matchedKeywords": [
+        "sales team",
+        "callback",
+        "call"
+      ],
+      "missingKeywords": [
+        "reach out"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "I would be happy to arrange for a member of our sales team to contact you. Would you prefer a callback, or would you like to call our support line now?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-015",
+      "question": "Can I receive the details on WhatsApp?",
+      "expectedKeywords": [
+        "WhatsApp",
+        "full name",
+        "right team",
+        "information"
+      ],
+      "matchedKeywords": [
+        "full name",
+        "information"
+      ],
+      "missingKeywords": [
+        "WhatsApp",
+        "right team"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I can certainly assist with that. To ensure I share the correct information with you, could you please confirm your full name and which Jetour model you are interested in?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-INT-016",
+      "question": "Thank you!",
+      "expectedKeywords": [
+        "welcome",
+        "assist",
+        "full name",
+        "right team"
+      ],
+      "matchedKeywords": [
+        "welcome",
+        "full name"
+      ],
+      "missingKeywords": [
+        "assist",
+        "right team"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "You are very welcome. To help me get the right information to you, could you please share your full name and let me know which Jetour model you are interested in?",
+      "status": "PASS"
+    }
+  ],
+  "failedTestCases": []
+}

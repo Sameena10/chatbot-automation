@@ -1,0 +1,387 @@
+{
+    "journey": "Vehicle Purchase Journey",
+    "testCases": [
+        {
+            "id": "TC-VJ-001",
+            "userMessage": "Hi",
+            "expectedKeywords": [
+                "hello",
+                "hi",
+                "welcome"
+            ]
+        },
+        {
+            "id": "TC-VJ-002",
+            "userMessage": "I want to buy a new car.",
+            "expectedKeywords": [
+                "new vehicle",
+                "new jetour",
+                "purchase",
+                "help me",
+                "new car"
+            ]
+        },
+        {
+            "id": "TC-VJ-003",
+            "userMessage": "What models do you have?",
+            "expectedKeywords": [
+                "dashing",
+                "x70 plus",
+                "T1",
+                "T2"
+            ]
+        },
+        {
+            "id": "TC-VJ-004",
+            "userMessage": "I'm interested in the T2.",
+            "expectedKeywords": [
+                "T2"
+            ]
+        },
+        {
+            "id": "TC-VJ-005",
+            "userMessage": "Can you tell me more about the T2?",
+            "expectedKeywords": [
+                "T2",
+                "adventure suv",
+                "off-road",
+                "interior"
+            ]
+        },
+        {
+            "id": "TC-VJ-006",
+            "userMessage": "What variants are available?",
+            "expectedKeywords": [
+                "standard",
+                "plug-in hybrid"
+            ]
+        },
+        {
+            "id": "TC-VJ-007",
+            "userMessage": "I'd like the standard variant.",
+            "expectedKeywords": [
+                "standard"
+            ]
+        },
+        {
+            "id": "TC-VJ-008",
+            "userMessage": "What colours are available?",
+            "expectedKeywords": [
+                "colour",
+                "matte grey",
+                "metallic",
+                "black"
+            ]
+        },
+        {
+            "id": "TC-VJ-009",
+            "userMessage": "I'd like the Midnight Black colour.",
+            "expectedKeywords": [
+                "midnight black",
+                "black"
+            ]
+        },
+        {
+            "id": "TC-VJ-010",
+            "userMessage": "Is it available in Cape Town?",
+            "expectedKeywords": [
+                "cape town",
+                "available"
+            ]
+        },
+        {
+            "id": "TC-VJ-011",
+            "userMessage": "I'd like to book a test drive.",
+            "expectedKeywords": [
+                "test drive"
+            ]
+        },
+        {
+            "id": "TC-VJ-012",
+            "userMessage": "Can I book it this weekend?",
+            "expectedKeywords": [
+                "weekend",
+                "test drive"
+            ]
+        },
+        {
+            "id": "TC-VJ-013",
+            "userMessage": "Can I finance this vehicle?",
+            "expectedKeywords": [
+                "finance",
+                "bank"
+            ]
+        },
+        {
+            "id": "TC-VJ-014",
+            "userMessage": "What documents do I need for finance?",
+            "expectedKeywords": [
+                "id",
+                "bank statements",
+                "payslip",
+                "proof of residence"
+            ]
+        },
+        {
+            "id": "TC-VJ-015",
+            "userMessage": "Can you estimate my monthly payment?",
+            "expectedKeywords": [
+                "monthly",
+                "deposit",
+                "interest rate",
+                "finance"
+            ]
+        },
+        {
+            "id": "TC-VJ-016",
+            "userMessage": "I can pay a R100,000 deposit.",
+            "expectedKeywords": [
+                "deposit",
+                "r100,000"
+            ]
+        },
+        {
+            "id": "TC-VJ-017",
+            "userMessage": "I don't have a trade-in vehicle.",
+            "expectedKeywords": [
+                "trade-in"
+            ]
+        },
+        {
+            "id": "TC-VJ-018",
+            "userMessage": "Can you prepare a quotation?",
+            "expectedKeywords": [
+                "quotation",
+                "quote"
+            ]
+        },
+        {
+            "id": "TC-VJ-019",
+            "userMessage": "Can you give me your best price?",
+            "expectedKeywords": [
+                "price",
+                "promotion",
+                "offer"
+            ]
+        },
+        {
+            "id": "TC-VJ-020",
+            "userMessage": "I'd like to proceed with the purchase.",
+            "expectedKeywords": [
+                "purchase",
+                "order"
+            ]
+        },
+        {
+            "id": "TC-VJ-021",
+            "userMessage": "What documents do you need from me?",
+            "expectedKeywords": [
+                "id",
+                "bank statements",
+                "proof of residence",
+                "payslip"
+            ]
+        },
+        {
+            "id": "TC-VJ-022",
+            "userMessage": "I'm ready to place my order.",
+            "expectedKeywords": [
+                "order"
+            ]
+        },
+        {
+            "id": "TC-VJ-023",
+            "userMessage": "When can my vehicle be delivered?",
+            "expectedKeywords": [
+                "delivery",
+                "stock",
+                "dealer"
+            ]
+        },
+        {
+            "id": "TC-VJ-024",
+            "userMessage": "Can you confirm my delivery date?",
+            "expectedKeywords": [
+                "delivery date",
+                "dealer"
+            ]
+        },
+        {
+            "id": "TC-VJ-025",
+            "userMessage": "Thank you for your help.",
+            "expectedKeywords": [
+                "pleasure",
+                "thank",
+                "assist"
+            ]
+        },
+        {
+            "id": "TC-T2-026",
+            "userMessage": "What is the top speed of the T2?",
+            "expectedKeywords": [
+                "180 km/h",
+                "top speed",
+                "dealer",
+                "technical specifications"
+            ]
+        },
+        {
+            "id": "TC-T2-027",
+            "userMessage": "What is the fuel consumption of the T2?",
+            "expectedKeywords": [
+                "8.2 litres per 100 kilometres",
+                "fuel consumption",
+                "performance",
+                "dealer"
+            ]
+        },
+        {
+            "id": "TC-T2-028",
+            "userMessage": "Does the T2 have a sunroof?",
+            "expectedKeywords": [
+                "yes",
+                "panoramic sunroof",
+                "features"
+            ]
+        },
+        {
+            "id": "TC-T2-029",
+            "userMessage": "Does the T2 support Apple CarPlay wirelessly?",
+            "expectedKeywords": [
+                "yes",
+                "wireless Apple CarPlay",
+                "technology features"
+            ]
+        },
+        {
+            "id": "TC-T2-030",
+            "userMessage": "I'm in India please deliver here",
+            "expectedKeywords": [
+                "South Africa only",
+                "sales",
+                "deliveries",
+                "local market"
+            ]
+        },
+        {
+            "id": "TC-T2-031",
+            "userMessage": "Does the T2 have ventilated seats?",
+            "expectedKeywords": [
+                "yes",
+                "ventilated seats",
+                "comfort"
+            ]
+        },
+        {
+            "id": "TC-T2-032",
+            "userMessage": "What is the boot capacity?",
+            "expectedKeywords": [
+                "475 litres",
+                "boot capacity",
+                "rear seats"
+            ]
+        },
+        {
+            "id": "TC-T2-033",
+            "userMessage": "How much ground clearance does the T2 have?",
+            "expectedKeywords": [
+                "220 millimetres",
+                "ground clearance",
+                "adventures"
+            ]
+        },
+        {
+            "id": "TC-T2-034",
+            "userMessage": "Does the T2 have ADAS Level 2?",
+            "expectedKeywords": [
+                "yes",
+                "ADAS Level 2",
+                "safety",
+                "comfort"
+            ]
+        },
+        {
+            "id": "TC-T2-035",
+            "userMessage": "Which is the highest variant available?",
+            "expectedKeywords": [
+                "Deluxe",
+                "top",
+                "premium features",
+                "technology"
+            ]
+        },
+        {
+            "id": "TC-T2-036",
+            "userMessage": "Is there a luxury edition?",
+            "expectedKeywords": [
+                "Deluxe",
+                "top-of-the-range",
+                "luxury",
+                "premium features"
+            ]
+        },
+        {
+            "id": "TC-T2-037",
+            "userMessage": "Is there a diesel version?",
+            "expectedKeywords": [
+                "petrol engine",
+                "no diesel",
+                "South African range"
+            ]
+        },
+        {
+            "id": "TC-T2-038",
+            "userMessage": "Is there a 7-seater T2?",
+            "expectedKeywords": [
+                "5-seater",
+                "X70 Plus",
+                "7-seater"
+            ]
+        },
+        {
+            "id": "TC-T2-039",
+            "userMessage": "Is the T2 available in red?",
+            "expectedKeywords": [
+                "selection of colours",
+                "colour",
+                "availability"
+            ]
+        },
+        {
+            "id": "TC-T2-040",
+            "userMessage": "Do you have a matte black edition?",
+            "expectedKeywords": [
+                "range of finishes",
+                "matte",
+                "availability"
+            ]
+        },
+        {
+            "id": "TC-T2-041",
+            "userMessage": "Can I order a custom blue colour?",
+            "expectedKeywords": [
+                "factory colours",
+                "no custom colour",
+                "available colours"
+            ]
+        },
+        {
+            "id": "TC-T2-042",
+            "userMessage": "Do you have the T2 in stock today?",
+            "expectedKeywords": [
+                "stock",
+                "availability",
+                "dealer"
+            ]
+        },
+        {
+            "id": "TC-T2-043",
+            "userMessage": "How many T2s are available in Cape Town?",
+            "expectedKeywords": [
+                "stock levels",
+                "Cape Town",
+                "local availability"
+            ]
+        }
+    ]
+}

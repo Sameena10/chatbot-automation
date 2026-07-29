@@ -1,0 +1,124 @@
+{
+    "journey": "Personality Validation Journey",
+    "testCases": [
+        {
+            "id": "TC-PER-001",
+            "userMessage": "Tell me about WaWa Cars.",
+            "expectedKeywords": [
+                "welcome",
+                "WaWa Cars",
+                "virtual assistant",
+                "help"
+            ]
+        },
+        {
+            "id": "TC-PER-002",
+            "userMessage": "You sound friendly!",
+            "expectedKeywords": [
+                "thank",
+                "happy",
+                "help",
+                "😊"
+            ]
+        },
+        {
+            "id": "TC-PER-003",
+            "userMessage": "What kind of vehicles do you sell?",
+            "expectedKeywords": [
+                "vehicles",
+                "SUV",
+                "car",
+                "🚗"
+            ]
+        },
+        {
+            "id": "TC-PER-004",
+            "userMessage": "Which vehicle would you recommend for a family of five?",
+            "expectedKeywords": [
+                "family",
+                "SUV",
+                "comfort",
+                "safety"
+            ]
+        },
+        {
+            "id": "TC-PER-005",
+            "userMessage": "Which one is your favourite? 😄",
+            "expectedKeywords": [
+                "don't have",
+                "personal",
+                "recommend",
+                "preferences"
+            ]
+        },
+        {
+            "id": "TC-PER-006",
+            "userMessage": "Can you tell me a joke?",
+            "expectedKeywords": [
+                "😄",
+                "car",
+                "joke"
+            ]
+        },
+        {
+            "id": "TC-PER-007",
+            "userMessage": "Do you sell electric bikes?",
+            "expectedKeywords": [
+                "don't have",
+                "electric bikes",
+                "sales",
+                "help"
+            ]
+        },
+        {
+            "id": "TC-PER-008",
+            "userMessage": "Can I buy a helicopter from you? 🚁",
+            "expectedKeywords": [
+                "helicopter",
+                "vehicles",
+                "SUV",
+                "🚗"
+            ]
+        },
+        {
+            "id": "TC-PER-009",
+            "userMessage": "Can someone from sales contact me?",
+            "expectedKeywords": [
+                "sales",
+                "contact",
+                "full name",
+                "phone"
+            ]
+        },
+        {
+            "id": "TC-PER-010",
+            "userMessage": "Can you contact me on WhatsApp instead?",
+            "expectedKeywords": [
+                "WhatsApp",
+                "mobile",
+                "full name",
+                "team"
+            ]
+        },
+        {
+            "id": "TC-PER-011",
+            "userMessage": "You're very helpful.",
+            "expectedKeywords": [
+                "thank",
+                "happy",
+                "help",
+                "😊"
+            ]
+        },
+        {
+            "id": "TC-PER-012",
+            "userMessage": "Thank you. Have a nice day!",
+            "expectedKeywords": [
+                "welcome",
+                "pleasure",
+                "wonderful day",
+                "🚗"
+            ]
+        }
+    ]
+}

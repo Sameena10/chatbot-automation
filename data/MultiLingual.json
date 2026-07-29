@@ -1,0 +1,165 @@
+{
+    "journey": "International Customer Browsing Inventory - Arabic to English",
+    "testCases": [
+        {
+            "id": "TC-INT-001",
+            "userMessage": "مرحبا",
+            "expectedKeywords": [
+                "مرحباً",
+                "جيتور",
+                "مساعدك",
+                "مساعدتك"
+            ]
+        },
+        {
+            "id": "TC-INT-002",
+            "userMessage": "أريد معرفة سيارات مرسيدس AMG.",
+            "expectedKeywords": [
+                "جيتور",
+                "جنوب أفريقيا",
+                "متخصص",
+                "سيارات جيتور"
+            ]
+        },
+        {
+            "id": "TC-INT-003",
+            "userMessage": "ما هي الموديلات المتوفرة؟",
+            "expectedKeywords": [
+                "X70",
+                "X90",
+                "داشينج",
+                "جيتور"
+            ]
+        },
+        {
+            "id": "TC-INT-004",
+            "userMessage": "هل لديكم Mercedes-AMG C63؟",
+            "expectedKeywords": [
+                "أعتذر",
+                "جيتور",
+                "موديلات",
+                "جيتور"
+            ]
+        },
+        {
+            "id": "TC-INT-005",
+            "userMessage": "ما هي الألوان المتوفرة؟",
+            "expectedKeywords": [
+                "الألوان",
+                "الموديل",
+                "اسمك",
+                "تفاصيل"
+            ]
+        },
+        {
+            "id": "TC-INT-006",
+            "userMessage": "هل لديكم سيارات SUV؟",
+            "expectedKeywords": [
+                "010",
+                "023",
+                "3273",
+                "jetour.co.za"
+            ]
+        },
+        {
+            "id": "TC-INT-007",
+            "userMessage": "هل يمكنني حجز تجربة قيادة؟",
+            "expectedKeywords": [
+                "تجربة قيادة",
+                "اسمك",
+                "الكامل",
+                "مساعدتك"
+            ]
+        },
+        {
+            "id": "TC-INT-008",
+            "userMessage": "Can we continue in English?",
+            "expectedKeywords": [
+                "continue",
+                "English",
+                "Jetour",
+                "full name"
+            ]
+        },
+        {
+            "id": "TC-INT-009",
+            "userMessage": "I'm looking for Mercedes-AMG models.",
+            "expectedKeywords": [
+                "Jetour",
+                "unable",
+                "Mercedes-AMG",
+                "SUV"
+            ]
+        },
+        {
+            "id": "TC-INT-010",
+            "userMessage": "Do you have the AMG C63 in stock?",
+            "expectedKeywords": [
+                "Jetour",
+                "other brands",
+                "Mercedes-AMG",
+                "T2"
+            ]
+        },
+        {
+            "id": "TC-INT-011",
+            "userMessage": "What colours are available?",
+            "expectedKeywords": [
+                "available colours",
+                "Jetour",
+                "model",
+                "palette"
+            ]
+        },
+        {
+            "id": "TC-INT-012",
+            "userMessage": "Do you have any SUV models?",
+            "expectedKeywords": [
+                "SUVs",
+                "Dashing",
+                "X70 Plus",
+                "T2"
+            ]
+        },
+        {
+            "id": "TC-INT-013",
+            "userMessage": "Can I schedule a test drive?",
+            "expectedKeywords": [
+                "test drive",
+                "full name",
+                "Jetour",
+                "started"
+            ]
+        },
+        {
+            "id": "TC-INT-014",
+            "userMessage": "Can someone from sales contact me?",
+            "expectedKeywords": [
+                "sales team",
+                "callback",
+                "call",
+                "reach out"
+            ]
+        },
+        {
+            "id": "TC-INT-015",
+            "userMessage": "Can I receive the details on WhatsApp?",
+            "expectedKeywords": [
+                "WhatsApp",
+                "full name",
+                "right team",
+                "information"
+            ]
+        },
+        {
+            "id": "TC-INT-016",
+            "userMessage": "Thank you!",
+            "expectedKeywords": [
+                "welcome",
+                "assist",
+                "full name",
+                "right team"
+            ]
+        }
+    ]
+}

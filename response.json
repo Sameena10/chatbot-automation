@@ -1,0 +1,514 @@
+[
+  {
+    "testCaseId": "TC-RA-001",
+    "question": "What services are included?",
+    "expectedKeywords": [
+      "services",
+      "roadside",
+      "coverage"
+    ],
+    "missingKeywords": [
+      "services",
+      "roadside",
+      "coverage"
+    ],
+    "actualResponse": "Hello. Our Jetour vehicles come with a comprehensive service plan and warranty to ensure your peace of mind.Could you please let me know which model you are interested in so I can provide the specific details for you?"
+  },
+  {
+    "testCaseId": "TC-RA-002",
+    "question": "Is roadside assistance available 24/7?",
+    "expectedKeywords": [
+      "24/7",
+      "availability",
+      "hotline"
+    ],
+    "missingKeywords": [
+      "availability",
+      "hotline"
+    ],
+    "actualResponse": "Yes, our roadside assistance is available 24/7 to support you.To ensure I can assist you properly if you need help, could you please provide your full name?"
+  },
+  {
+    "testCaseId": "TC-RA-003",
+    "question": "How do I request assistance?",
+    "expectedKeywords": [
+      "request",
+      "hotline",
+      "app"
+    ],
+    "missingKeywords": [
+      "hotline",
+      "app"
+    ],
+    "actualResponse": "To request roadside assistance, please provide me with your full name, vehicle make and model, registration number, and your current location. Once I have these details, I can provide the emergency contact information to get you the help you need."
+  },
+  {
+    "testCaseId": "TC-RA-004",
+    "question": "Who is covered under my plan?",
+    "expectedKeywords": [
+      "coverage",
+      "registered vehicle",
+      "owner"
+    ],
+    "missingKeywords": [
+      "coverage",
+      "registered vehicle",
+      "owner"
+    ],
+    "actualResponse": "Your service plan and roadside assistance cover the Jetour vehicle itself, regardless of who is driving it at the time.To ensure I have your details on file for any future support, may I please have your full name?"
+  },
+  {
+    "testCaseId": "TC-RA-005",
+    "question": "Does coverage apply to rental cars?",
+    "expectedKeywords": [
+      "rental",
+      "coverage",
+      "eligibility"
+    ],
+    "missingKeywords": [
+      "coverage",
+      "eligibility"
+    ],
+    "actualResponse": "Our service plan and roadside assistance are specific to the Jetour vehicle registered in our system and do not extend to rental cars.To help me update your records, could you please share your full name?"
+  },
+  {
+    "testCaseId": "TC-RA-006",
+    "question": "Is there a limit to service calls?",
+    "expectedKeywords": [
+      "limit",
+      "service calls",
+      "usage"
+    ],
+    "missingKeywords": [
+      "limit",
+      "service calls",
+      "usage"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-007",
+    "question": "Is roadside assistance free?",
+    "expectedKeywords": [
+      "free",
+      "membership",
+      "benefits"
+    ],
+    "missingKeywords": [
+      "free",
+      "membership",
+      "benefits"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-008",
+    "question": "Will I be charged for towing beyond distance?",
+    "expectedKeywords": [
+      "towing",
+      "distance",
+      "charges"
+    ],
+    "missingKeywords": [
+      "towing",
+      "distance",
+      "charges"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-009",
+    "question": "How far will my vehicle be towed?",
+    "expectedKeywords": [
+      "towing",
+      "distance",
+      "vehicle"
+    ],
+    "missingKeywords": [
+      "towing",
+      "distance",
+      "vehicle"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-010",
+    "question": "Can I choose the repair shop?",
+    "expectedKeywords": [
+      "repair shop",
+      "choice",
+      "towing"
+    ],
+    "missingKeywords": [
+      "repair shop",
+      "choice",
+      "towing"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-011",
+    "question": "What should I do while waiting?",
+    "expectedKeywords": [
+      "safety",
+      "waiting",
+      "vehicle"
+    ],
+    "missingKeywords": [
+      "safety",
+      "waiting",
+      "vehicle"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-012",
+    "question": "How long does it take for help to arrive?",
+    "expectedKeywords": [
+      "response",
+      "30",
+      "60"
+    ],
+    "missingKeywords": [
+      "response",
+      "30",
+      "60"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-013",
+    "question": "How do I renew/upgrade my plan?",
+    "expectedKeywords": [
+      "renew",
+      "upgrade",
+      "membership"
+    ],
+    "missingKeywords": [
+      "renew",
+      "upgrade",
+      "membership"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-014",
+    "question": "Can I transfer coverage to another vehicle?",
+    "expectedKeywords": [
+      "transfer",
+      "coverage",
+      "vehicle"
+    ],
+    "missingKeywords": [
+      "transfer",
+      "coverage",
+      "vehicle"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-015",
+    "question": "What services are included in roadside assistance?",
+    "expectedKeywords": [
+      "towing",
+      "battery",
+      "flat tire",
+      "lockout",
+      "fuel"
+    ],
+    "missingKeywords": [
+      "towing",
+      "battery",
+      "flat tire",
+      "lockout",
+      "fuel"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-016",
+    "question": "Is roadside assistance available 24/7?",
+    "expectedKeywords": [
+      "24",
+      "1-800-JETOUR"
+    ],
+    "missingKeywords": [
+      "24",
+      "1-800-JETOUR"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-017",
+    "question": "How do I request roadside assistance?",
+    "expectedKeywords": [
+      "1-800-JETOUR",
+      "roadside",
+      "assistance"
+    ],
+    "missingKeywords": [
+      "1-800-JETOUR",
+      "roadside",
+      "assistance"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-018",
+    "question": "What information should I provide when calling for help?",
+    "expectedKeywords": [
+      "name",
+      "contact",
+      "location",
+      "vehicle",
+      "registration"
+    ],
+    "missingKeywords": [
+      "name",
+      "location",
+      "vehicle",
+      "registration"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-019",
+    "question": "Who is covered under my roadside assistance plan?",
+    "expectedKeywords": [
+      "registered",
+      "vehicle",
+      "authorized driver"
+    ],
+    "missingKeywords": [
+      "registered",
+      "vehicle",
+      "authorized driver"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-020",
+    "question": "Does roadside assistance cover rental cars or borrowed vehicles?",
+    "expectedKeywords": [
+      "rental",
+      "borrowed",
+      "not"
+    ],
+    "missingKeywords": [
+      "rental",
+      "borrowed",
+      "not"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-021",
+    "question": "Is there a limit to the number of service calls per year?",
+    "expectedKeywords": [
+      "limit",
+      "service",
+      "request"
+    ],
+    "missingKeywords": [
+      "limit",
+      "service",
+      "request"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-022",
+    "question": "Are motorcycles or trailers covered?",
+    "expectedKeywords": [
+      "motorcycle",
+      "trailer",
+      "not"
+    ],
+    "missingKeywords": [
+      "motorcycle",
+      "trailer",
+      "not"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-023",
+    "question": "Is roadside assistance free with my insurance or membership?",
+    "expectedKeywords": [
+      "warranty",
+      "insurance",
+      "membership"
+    ],
+    "missingKeywords": [
+      "warranty",
+      "insurance",
+      "membership"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-024",
+    "question": "Will I be charged extra for towing beyond a certain distance?",
+    "expectedKeywords": [
+      "towing",
+      "distance",
+      "coverage"
+    ],
+    "missingKeywords": [
+      "towing",
+      "distance",
+      "coverage"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-025",
+    "question": "Do I need to pay the service provider directly?",
+    "expectedKeywords": [
+      "pay",
+      "service provider",
+      "directly"
+    ],
+    "missingKeywords": [
+      "pay",
+      "service provider",
+      "directly"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-026",
+    "question": "How far will my vehicle be towed at no cost?",
+    "expectedKeywords": [
+      "towing",
+      "coverage",
+      "plan"
+    ],
+    "missingKeywords": [
+      "towing",
+      "coverage",
+      "plan"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-027",
+    "question": "Can I choose the repair shop or dealership for towing?",
+    "expectedKeywords": [
+      "repair shop",
+      "dealership",
+      "towing"
+    ],
+    "missingKeywords": [
+      "repair shop",
+      "dealership",
+      "towing"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-028",
+    "question": "Does roadside assistance cover repair costs?",
+    "expectedKeywords": [
+      "repair",
+      "cost",
+      "roadside assistance"
+    ],
+    "missingKeywords": [
+      "repair",
+      "cost",
+      "roadside assistance"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-029",
+    "question": "What should I do while waiting for roadside assistance?",
+    "expectedKeywords": [
+      "safe",
+      "hazard",
+      "vehicle"
+    ],
+    "missingKeywords": [
+      "safe",
+      "hazard",
+      "vehicle"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-030",
+    "question": "How long does it usually take for help to arrive?",
+    "expectedKeywords": [
+      "30",
+      "60",
+      "minutes"
+    ],
+    "missingKeywords": [
+      "30",
+      "60",
+      "minutes"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-031",
+    "question": "Is roadside assistance available in remote or rural areas?",
+    "expectedKeywords": [
+      "remote",
+      "rural",
+      "response"
+    ],
+    "missingKeywords": [
+      "remote",
+      "rural",
+      "response"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-032",
+    "question": "How do I renew or upgrade my roadside assistance plan?",
+    "expectedKeywords": [
+      "renew",
+      "upgrade",
+      "customer service"
+    ],
+    "missingKeywords": [
+      "renew",
+      "upgrade",
+      "customer service"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-033",
+    "question": "Can I transfer my roadside assistance to another vehicle?",
+    "expectedKeywords": [
+      "transfer",
+      "vehicle",
+      "VIN"
+    ],
+    "missingKeywords": [
+      "transfer",
+      "vehicle",
+      "VIN"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  },
+  {
+    "testCaseId": "TC-RA-034",
+    "question": "What happens if I sell my car—does coverage transfer to the new owner?",
+    "expectedKeywords": [
+      "coverage",
+      "transfer",
+      "owner"
+    ],
+    "missingKeywords": [
+      "coverage",
+      "transfer",
+      "owner"
+    ],
+    "actualResponse": "For further help please visit https://jetour.co.za/ or contact Customer Care on 010 023 3273"
+  }
+]

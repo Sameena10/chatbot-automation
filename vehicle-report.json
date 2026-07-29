@@ -1,0 +1,1299 @@
+{
+  "journey": "Vehicle Purchase Journey",
+  "executionDate": "2026-07-16T12:40:35.497Z",
+  "totalTestCases": 43,
+  "passed": 17,
+  "failed": 26,
+  "passPercentage": 39.53,
+  "totalExecutionTimeInMs": 577491,
+  "testResults": [
+    {
+      "testCaseId": "TC-VJ-001",
+      "question": "Hi",
+      "expectedKeywords": [
+        "hello",
+        "hi",
+        "welcome"
+      ],
+      "matchedKeywords": [
+        "hello",
+        "hi",
+        "welcome"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Hello and welcome to Jetour South Africa. I am your Jetour digital assistant.Are you looking to buy a new Jetour, book a service, find a dealer, or do you need help with something else?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-002",
+      "question": "I want to buy a new car.",
+      "expectedKeywords": [
+        "new vehicle",
+        "new jetour",
+        "purchase",
+        "help me",
+        "new car"
+      ],
+      "matchedKeywords": [
+        "new vehicle"
+      ],
+      "missingKeywords": [
+        "new jetour",
+        "purchase",
+        "help me",
+        "new car"
+      ],
+      "matchPercentage": 20,
+      "actualResponse": "That is exciting news. We have a fantastic range of new vehicles available for you to choose from.To get started, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-003",
+      "question": "What models do you have?",
+      "expectedKeywords": [
+        "dashing",
+        "x70 plus",
+        "T1",
+        "T2"
+      ],
+      "matchedKeywords": [
+        "dashing",
+        "x70 plus",
+        "T1",
+        "T2"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "We have a great selection of new vehicles to suit your lifestyle. Our current range includes:Dashing: A stylish and compact 5-seater SUV from R439,900.X70 Plus: A spacious 7-seater family SUV from R454,900.T1: An adventure-ready SUV from R514,900.T2: Our award-winning 2026 SA Car of the Year from R569,900.The T1 and T2 are also available as plug-in hybrids. Which of these models catches your eye, and may I please have your full name to get your enquiry started?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-004",
+      "question": "I'm interested in the T2.",
+      "expectedKeywords": [
+        "T2"
+      ],
+      "matchedKeywords": [
+        "T2"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "The T2 is a fantastic choice and truly stands out with its bold design and performance. To help me assist you further with your enquiry, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-005",
+      "question": "Can you tell me more about the T2?",
+      "expectedKeywords": [
+        "T2",
+        "adventure suv",
+        "off-road",
+        "interior"
+      ],
+      "matchedKeywords": [
+        "T2",
+        "adventure suv"
+      ],
+      "missingKeywords": [
+        "off-road",
+        "interior"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is our flagship adventure SUV, celebrated as the 2026 SA Car of the Year for its rugged capability, advanced technology, and premium comfort. It offers a powerful driving experience and is also available as a plug-in hybrid for added efficiency.To ensure I can get the right information to the correct dealer for you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-006",
+      "question": "What variants are available?",
+      "expectedKeywords": [
+        "standard",
+        "plug-in hybrid"
+      ],
+      "matchedKeywords": [
+        "plug-in hybrid"
+      ],
+      "missingKeywords": [
+        "standard"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is available in both a petrol variant and a plug-in hybrid model, giving you the choice between powerful performance and enhanced fuel efficiency.To help me assist you further, could I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-007",
+      "question": "I'd like the standard variant.",
+      "expectedKeywords": [
+        "standard"
+      ],
+      "matchedKeywords": [
+        "standard"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Got it, the standard T2 is a great choice. To help me get your enquiry moving forward, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-008",
+      "question": "What colours are available?",
+      "expectedKeywords": [
+        "colour",
+        "matte grey",
+        "metallic",
+        "black"
+      ],
+      "matchedKeywords": [
+        "colour"
+      ],
+      "missingKeywords": [
+        "matte grey",
+        "metallic",
+        "black"
+      ],
+      "matchPercentage": 25,
+      "actualResponse": "The T2 comes in a range of striking colours designed to make an impression on any adventure. Could you please share your full name so I can assist you further with your enquiry?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-009",
+      "question": "I'd like the Midnight Black colour.",
+      "expectedKeywords": [
+        "midnight black",
+        "black"
+      ],
+      "matchedKeywords": [
+        "midnight black",
+        "black"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "That is a fantastic choice, Midnight Black looks very sophisticated on the T2.To help me finalise your enquiry details, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-010",
+      "question": "Is it available in Cape Town?",
+      "expectedKeywords": [
+        "cape town",
+        "available"
+      ],
+      "matchedKeywords": [
+        "cape town",
+        "available"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Yes, the T2 is available in Cape Town. To help me connect you with the right team, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-011",
+      "question": "I'd like to book a test drive.",
+      "expectedKeywords": [
+        "test drive"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "test drive"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "That is a great idea, there is no better way to experience the T2 than getting behind the wheel.I would be happy to help you with that, but I still need your full name to proceed with your request. Could you please share it with me?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-012",
+      "question": "Can I book it this weekend?",
+      "expectedKeywords": [
+        "weekend",
+        "test drive"
+      ],
+      "matchedKeywords": [
+        "weekend",
+        "test drive"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "I would love to help you arrange that test drive for this weekend. To get everything ready for you, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-013",
+      "question": "Can I finance this vehicle?",
+      "expectedKeywords": [
+        "finance",
+        "bank"
+      ],
+      "matchedKeywords": [
+        "finance"
+      ],
+      "missingKeywords": [
+        "bank"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "Yes, you can certainly finance the T2. We work with leading financial institutions to make the process as smooth as possible.To get your details captured for the dealer, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-014",
+      "question": "What documents do I need for finance?",
+      "expectedKeywords": [
+        "id",
+        "bank statements",
+        "payslip",
+        "proof of residence"
+      ],
+      "matchedKeywords": [
+        "id",
+        "bank statements",
+        "payslip"
+      ],
+      "missingKeywords": [
+        "proof of residence"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "To apply for finance, you will generally need your valid driver's licence, a copy of your ID, your latest three months' bank statements, and your latest three months' payslips.To help me assist you further with this, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-015",
+      "question": "Can you estimate my monthly payment?",
+      "expectedKeywords": [
+        "monthly",
+        "deposit",
+        "interest rate",
+        "finance"
+      ],
+      "matchedKeywords": [
+        "monthly",
+        "deposit",
+        "finance"
+      ],
+      "missingKeywords": [
+        "interest rate"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "I can certainly help you get an idea of the monthly repayments once we have your full details, as these vary based on your deposit and the term of the finance.To move forward with your request and get you closer to that test drive, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-016",
+      "question": "I can pay a R100,000 deposit.",
+      "expectedKeywords": [
+        "deposit",
+        "r100,000"
+      ],
+      "matchedKeywords": [
+        "deposit"
+      ],
+      "missingKeywords": [
+        "r100,000"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "That is a great deposit amount, which will certainly help with your monthly repayments.To ensure I have all your details correctly registered for your enquiry, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-017",
+      "question": "I don't have a trade-in vehicle.",
+      "expectedKeywords": [
+        "trade-in"
+      ],
+      "matchedKeywords": [
+        "trade-in"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Got it, thanks for letting me know that you do not have a trade-in vehicle.To help me finalise your enquiry and get you booked for that test drive, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-018",
+      "question": "Can you prepare a quotation?",
+      "expectedKeywords": [
+        "quotation",
+        "quote"
+      ],
+      "matchedKeywords": [
+        "quotation"
+      ],
+      "missingKeywords": [
+        "quote"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I would be happy to help you get a quotation for your T2. To ensure I have everything ready for the dealer to assist you, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-019",
+      "question": "Can you give me your best price?",
+      "expectedKeywords": [
+        "price",
+        "promotion",
+        "offer"
+      ],
+      "matchedKeywords": [
+        "price"
+      ],
+      "missingKeywords": [
+        "promotion",
+        "offer"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is priced from R569,900, and our team will be able to discuss the best possible deal for you once we have your details.To get this process started and prepare that quotation for you, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-020",
+      "question": "I'd like to proceed with the purchase.",
+      "expectedKeywords": [
+        "purchase",
+        "order"
+      ],
+      "matchedKeywords": [
+        "purchase"
+      ],
+      "missingKeywords": [
+        "order"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "That is fantastic news, and I am excited to help you get into your new T2.To ensure I have everything ready for the dealer to finalise your purchase, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-021",
+      "question": "What documents do you need from me?",
+      "expectedKeywords": [
+        "id",
+        "bank statements",
+        "proof of residence",
+        "payslip"
+      ],
+      "matchedKeywords": [
+        "id",
+        "bank statements",
+        "payslip"
+      ],
+      "missingKeywords": [
+        "proof of residence"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "To proceed with your purchase, please have the following documents ready for the dealer:A copy of your valid IDYour valid driver's licenceYour latest three months' bank statementsYour latest three months' payslipsTo get your file ready for the dealer, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-022",
+      "question": "I'm ready to place my order.",
+      "expectedKeywords": [
+        "order"
+      ],
+      "matchedKeywords": [
+        "order"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "That is wonderful news, and I am thrilled to help you get your T2 ordered. To ensure your file is complete for the dealer, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-023",
+      "question": "When can my vehicle be delivered?",
+      "expectedKeywords": [
+        "delivery",
+        "stock",
+        "dealer"
+      ],
+      "matchedKeywords": [
+        "delivery",
+        "stock",
+        "dealer"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Delivery timelines for your T2 depend on current stock availability at your chosen dealership, but our team will do their best to get you behind the wheel as soon as possible.To help me finalise your enquiry and connect you with the right dealer, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-024",
+      "question": "Can you confirm my delivery date?",
+      "expectedKeywords": [
+        "delivery date",
+        "dealer"
+      ],
+      "matchedKeywords": [
+        "delivery date",
+        "dealer"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "I understand you are eager to get your new vehicle. Once your order is processed and the finance is approved, the dealer will be able to provide you with a confirmed delivery date.To get this process moving, could you please provide your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-VJ-025",
+      "question": "Thank you for your help.",
+      "expectedKeywords": [
+        "pleasure",
+        "thank",
+        "assist"
+      ],
+      "matchedKeywords": [
+        "assist"
+      ],
+      "missingKeywords": [
+        "pleasure",
+        "thank"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "You are very welcome. I am happy to assist you with your journey to owning a new T2.To finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-026",
+      "question": "What is the top speed of the T2?",
+      "expectedKeywords": [
+        "180 km/h",
+        "top speed",
+        "dealer",
+        "technical specifications"
+      ],
+      "matchedKeywords": [
+        "top speed"
+      ],
+      "missingKeywords": [
+        "180 km/h",
+        "dealer",
+        "technical specifications"
+      ],
+      "matchPercentage": 25,
+      "actualResponse": "The T2 is designed for impressive performance, but I do not have the specific top speed figures available right now. My focus is on helping you secure your order, so let's get your details finalised.Could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-027",
+      "question": "What is the fuel consumption of the T2?",
+      "expectedKeywords": [
+        "8.2 litres per 100 kilometres",
+        "fuel consumption",
+        "performance",
+        "dealer"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "8.2 litres per 100 kilometres",
+        "fuel consumption",
+        "performance",
+        "dealer"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "The T2 offers a great balance of power and efficiency for your adventures, though exact consumption figures can vary based on your driving style and conditions.To help you move forward with your purchase, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-028",
+      "question": "Does the T2 have a sunroof?",
+      "expectedKeywords": [
+        "yes",
+        "panoramic sunroof",
+        "features"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "panoramic sunroof",
+        "features"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Yes, the T2 features a panoramic sunroof to enhance your driving experience.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-029",
+      "question": "Does the T2 support Apple CarPlay wirelessly?",
+      "expectedKeywords": [
+        "yes",
+        "wireless Apple CarPlay",
+        "technology features"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "wireless Apple CarPlay"
+      ],
+      "missingKeywords": [
+        "technology features"
+      ],
+      "matchPercentage": 66.67,
+      "actualResponse": "Yes, the T2 does support wireless Apple CarPlay to keep you connected on the road.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-030",
+      "question": "I'm in India please deliver here",
+      "expectedKeywords": [
+        "South Africa only",
+        "sales",
+        "deliveries",
+        "local market"
+      ],
+      "matchedKeywords": [
+        "South Africa only",
+        "deliveries"
+      ],
+      "missingKeywords": [
+        "sales",
+        "local market"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I am sorry, but Jetour South Africa only operates within South Africa and cannot facilitate deliveries to India. I can only assist with enquiries for vehicles located within South Africa.Is there anything else I can help you with regarding our South African range?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-031",
+      "question": "Does the T2 have ventilated seats?",
+      "expectedKeywords": [
+        "yes",
+        "ventilated seats",
+        "comfort"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "comfort"
+      ],
+      "missingKeywords": [
+        "ventilated seats"
+      ],
+      "matchPercentage": 66.67,
+      "actualResponse": "Yes, the T2 is equipped with ventilated front seats to ensure your comfort on every journey.Since you are interested in the T2, could you please provide your full name so I can help you move forward with your enquiry?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-032",
+      "question": "What is the boot capacity?",
+      "expectedKeywords": [
+        "475 litres",
+        "boot capacity",
+        "rear seats"
+      ],
+      "matchedKeywords": [
+        "475 litres",
+        "boot capacity",
+        "rear seats"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "The T2 offers a generous boot capacity of 475 litres, which expands to 1,494 litres with the rear seats folded down.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-033",
+      "question": "How much ground clearance does the T2 have?",
+      "expectedKeywords": [
+        "220 millimetres",
+        "ground clearance",
+        "adventures"
+      ],
+      "matchedKeywords": [
+        "220 millimetres",
+        "ground clearance",
+        "adventures"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "The T2 has an impressive ground clearance of 220 millimetres, which is perfect for your off-road adventures.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-034",
+      "question": "Does the T2 have ADAS Level 2?",
+      "expectedKeywords": [
+        "yes",
+        "ADAS Level 2",
+        "safety",
+        "comfort"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "ADAS Level 2",
+        "safety"
+      ],
+      "missingKeywords": [
+        "comfort"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "Yes, the T2 is equipped with an advanced ADAS Level 2 system to enhance your safety on the road.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-035",
+      "question": "Which is the highest variant available?",
+      "expectedKeywords": [
+        "Deluxe",
+        "top",
+        "premium features",
+        "technology"
+      ],
+      "matchedKeywords": [
+        "top",
+        "premium features"
+      ],
+      "missingKeywords": [
+        "Deluxe",
+        "technology"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is our top-of-the-range model, and it is available in a high-specification trim that includes all the premium features we have discussed.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-036",
+      "question": "Is there a luxury edition?",
+      "expectedKeywords": [
+        "Deluxe",
+        "top-of-the-range",
+        "luxury",
+        "premium features"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "Deluxe",
+        "top-of-the-range",
+        "luxury",
+        "premium features"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "The T2 comes very well-equipped as standard, offering a premium and luxurious experience with all the features we have discussed.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-037",
+      "question": "Is there a diesel version?",
+      "expectedKeywords": [
+        "petrol engine",
+        "no diesel",
+        "South African range"
+      ],
+      "matchedKeywords": [
+        "petrol engine",
+        "no diesel",
+        "South African range"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "The T2 is currently available with a powerful petrol engine, and there is no diesel version in the South African range.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-038",
+      "question": "Is there a 7-seater T2?",
+      "expectedKeywords": [
+        "5-seater",
+        "X70 Plus",
+        "7-seater"
+      ],
+      "matchedKeywords": [
+        "5-seater",
+        "X70 Plus",
+        "7-seater"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "The T2 is designed as a spacious 5-seater SUV, but if you are looking for a 7-seater, our X70 Plus is the perfect family SUV for your needs.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-039",
+      "question": "Is the T2 available in red?",
+      "expectedKeywords": [
+        "selection of colours",
+        "colour",
+        "availability"
+      ],
+      "matchedKeywords": [
+        "colour"
+      ],
+      "missingKeywords": [
+        "selection of colours",
+        "availability"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is available in several striking colours, though it is not currently offered in red.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-040",
+      "question": "Do you have a matte black edition?",
+      "expectedKeywords": [
+        "range of finishes",
+        "matte",
+        "availability"
+      ],
+      "matchedKeywords": [
+        "matte"
+      ],
+      "missingKeywords": [
+        "range of finishes",
+        "availability"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is currently available in a sophisticated Midnight Black finish, but it does not come in a factory matte black edition.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-041",
+      "question": "Can I order a custom blue colour?",
+      "expectedKeywords": [
+        "factory colours",
+        "no custom colour",
+        "available colours"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "factory colours",
+        "no custom colour",
+        "available colours"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "Unfortunately, we do not offer custom paint orders, as our vehicles come in a set range of colours to ensure the highest quality finish.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-042",
+      "question": "Do you have the T2 in stock today?",
+      "expectedKeywords": [
+        "stock",
+        "availability",
+        "dealer"
+      ],
+      "matchedKeywords": [
+        "stock",
+        "availability",
+        "dealer"
+      ],
+      "missingKeywords": [],
+      "matchPercentage": 100,
+      "actualResponse": "Stock levels change daily across our dealerships, but I can certainly help you check availability with your nearest dealer.To get that process started, may I please have your full name?",
+      "status": "PASS"
+    },
+    {
+      "testCaseId": "TC-T2-043",
+      "question": "How many T2s are available in Cape Town?",
+      "expectedKeywords": [
+        "stock levels",
+        "Cape Town",
+        "local availability"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "stock levels",
+        "Cape Town",
+        "local availability"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "Stock availability at specific dealerships changes frequently, so it is best to have a consultant check the current inventory for you.To help me connect you with the right team in the Western Cape, may I please have your full name?",
+      "status": "FAIL"
+    }
+  ],
+  "failedTestCases": [
+    {
+      "testCaseId": "TC-VJ-002",
+      "question": "I want to buy a new car.",
+      "expectedKeywords": [
+        "new vehicle",
+        "new jetour",
+        "purchase",
+        "help me",
+        "new car"
+      ],
+      "matchedKeywords": [
+        "new vehicle"
+      ],
+      "missingKeywords": [
+        "new jetour",
+        "purchase",
+        "help me",
+        "new car"
+      ],
+      "matchPercentage": 20,
+      "actualResponse": "That is exciting news. We have a fantastic range of new vehicles available for you to choose from.To get started, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-005",
+      "question": "Can you tell me more about the T2?",
+      "expectedKeywords": [
+        "T2",
+        "adventure suv",
+        "off-road",
+        "interior"
+      ],
+      "matchedKeywords": [
+        "T2",
+        "adventure suv"
+      ],
+      "missingKeywords": [
+        "off-road",
+        "interior"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is our flagship adventure SUV, celebrated as the 2026 SA Car of the Year for its rugged capability, advanced technology, and premium comfort. It offers a powerful driving experience and is also available as a plug-in hybrid for added efficiency.To ensure I can get the right information to the correct dealer for you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-006",
+      "question": "What variants are available?",
+      "expectedKeywords": [
+        "standard",
+        "plug-in hybrid"
+      ],
+      "matchedKeywords": [
+        "plug-in hybrid"
+      ],
+      "missingKeywords": [
+        "standard"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is available in both a petrol variant and a plug-in hybrid model, giving you the choice between powerful performance and enhanced fuel efficiency.To help me assist you further, could I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-008",
+      "question": "What colours are available?",
+      "expectedKeywords": [
+        "colour",
+        "matte grey",
+        "metallic",
+        "black"
+      ],
+      "matchedKeywords": [
+        "colour"
+      ],
+      "missingKeywords": [
+        "matte grey",
+        "metallic",
+        "black"
+      ],
+      "matchPercentage": 25,
+      "actualResponse": "The T2 comes in a range of striking colours designed to make an impression on any adventure. Could you please share your full name so I can assist you further with your enquiry?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-011",
+      "question": "I'd like to book a test drive.",
+      "expectedKeywords": [
+        "test drive"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "test drive"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "That is a great idea, there is no better way to experience the T2 than getting behind the wheel.I would be happy to help you with that, but I still need your full name to proceed with your request. Could you please share it with me?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-013",
+      "question": "Can I finance this vehicle?",
+      "expectedKeywords": [
+        "finance",
+        "bank"
+      ],
+      "matchedKeywords": [
+        "finance"
+      ],
+      "missingKeywords": [
+        "bank"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "Yes, you can certainly finance the T2. We work with leading financial institutions to make the process as smooth as possible.To get your details captured for the dealer, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-014",
+      "question": "What documents do I need for finance?",
+      "expectedKeywords": [
+        "id",
+        "bank statements",
+        "payslip",
+        "proof of residence"
+      ],
+      "matchedKeywords": [
+        "id",
+        "bank statements",
+        "payslip"
+      ],
+      "missingKeywords": [
+        "proof of residence"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "To apply for finance, you will generally need your valid driver's licence, a copy of your ID, your latest three months' bank statements, and your latest three months' payslips.To help me assist you further with this, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-015",
+      "question": "Can you estimate my monthly payment?",
+      "expectedKeywords": [
+        "monthly",
+        "deposit",
+        "interest rate",
+        "finance"
+      ],
+      "matchedKeywords": [
+        "monthly",
+        "deposit",
+        "finance"
+      ],
+      "missingKeywords": [
+        "interest rate"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "I can certainly help you get an idea of the monthly repayments once we have your full details, as these vary based on your deposit and the term of the finance.To move forward with your request and get you closer to that test drive, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-016",
+      "question": "I can pay a R100,000 deposit.",
+      "expectedKeywords": [
+        "deposit",
+        "r100,000"
+      ],
+      "matchedKeywords": [
+        "deposit"
+      ],
+      "missingKeywords": [
+        "r100,000"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "That is a great deposit amount, which will certainly help with your monthly repayments.To ensure I have all your details correctly registered for your enquiry, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-018",
+      "question": "Can you prepare a quotation?",
+      "expectedKeywords": [
+        "quotation",
+        "quote"
+      ],
+      "matchedKeywords": [
+        "quotation"
+      ],
+      "missingKeywords": [
+        "quote"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I would be happy to help you get a quotation for your T2. To ensure I have everything ready for the dealer to assist you, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-019",
+      "question": "Can you give me your best price?",
+      "expectedKeywords": [
+        "price",
+        "promotion",
+        "offer"
+      ],
+      "matchedKeywords": [
+        "price"
+      ],
+      "missingKeywords": [
+        "promotion",
+        "offer"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is priced from R569,900, and our team will be able to discuss the best possible deal for you once we have your details.To get this process started and prepare that quotation for you, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-020",
+      "question": "I'd like to proceed with the purchase.",
+      "expectedKeywords": [
+        "purchase",
+        "order"
+      ],
+      "matchedKeywords": [
+        "purchase"
+      ],
+      "missingKeywords": [
+        "order"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "That is fantastic news, and I am excited to help you get into your new T2.To ensure I have everything ready for the dealer to finalise your purchase, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-021",
+      "question": "What documents do you need from me?",
+      "expectedKeywords": [
+        "id",
+        "bank statements",
+        "proof of residence",
+        "payslip"
+      ],
+      "matchedKeywords": [
+        "id",
+        "bank statements",
+        "payslip"
+      ],
+      "missingKeywords": [
+        "proof of residence"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "To proceed with your purchase, please have the following documents ready for the dealer:A copy of your valid IDYour valid driver's licenceYour latest three months' bank statementsYour latest three months' payslipsTo get your file ready for the dealer, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-VJ-025",
+      "question": "Thank you for your help.",
+      "expectedKeywords": [
+        "pleasure",
+        "thank",
+        "assist"
+      ],
+      "matchedKeywords": [
+        "assist"
+      ],
+      "missingKeywords": [
+        "pleasure",
+        "thank"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "You are very welcome. I am happy to assist you with your journey to owning a new T2.To finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-026",
+      "question": "What is the top speed of the T2?",
+      "expectedKeywords": [
+        "180 km/h",
+        "top speed",
+        "dealer",
+        "technical specifications"
+      ],
+      "matchedKeywords": [
+        "top speed"
+      ],
+      "missingKeywords": [
+        "180 km/h",
+        "dealer",
+        "technical specifications"
+      ],
+      "matchPercentage": 25,
+      "actualResponse": "The T2 is designed for impressive performance, but I do not have the specific top speed figures available right now. My focus is on helping you secure your order, so let's get your details finalised.Could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-027",
+      "question": "What is the fuel consumption of the T2?",
+      "expectedKeywords": [
+        "8.2 litres per 100 kilometres",
+        "fuel consumption",
+        "performance",
+        "dealer"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "8.2 litres per 100 kilometres",
+        "fuel consumption",
+        "performance",
+        "dealer"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "The T2 offers a great balance of power and efficiency for your adventures, though exact consumption figures can vary based on your driving style and conditions.To help you move forward with your purchase, could you please provide your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-029",
+      "question": "Does the T2 support Apple CarPlay wirelessly?",
+      "expectedKeywords": [
+        "yes",
+        "wireless Apple CarPlay",
+        "technology features"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "wireless Apple CarPlay"
+      ],
+      "missingKeywords": [
+        "technology features"
+      ],
+      "matchPercentage": 66.67,
+      "actualResponse": "Yes, the T2 does support wireless Apple CarPlay to keep you connected on the road.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-030",
+      "question": "I'm in India please deliver here",
+      "expectedKeywords": [
+        "South Africa only",
+        "sales",
+        "deliveries",
+        "local market"
+      ],
+      "matchedKeywords": [
+        "South Africa only",
+        "deliveries"
+      ],
+      "missingKeywords": [
+        "sales",
+        "local market"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "I am sorry, but Jetour South Africa only operates within South Africa and cannot facilitate deliveries to India. I can only assist with enquiries for vehicles located within South Africa.Is there anything else I can help you with regarding our South African range?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-031",
+      "question": "Does the T2 have ventilated seats?",
+      "expectedKeywords": [
+        "yes",
+        "ventilated seats",
+        "comfort"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "comfort"
+      ],
+      "missingKeywords": [
+        "ventilated seats"
+      ],
+      "matchPercentage": 66.67,
+      "actualResponse": "Yes, the T2 is equipped with ventilated front seats to ensure your comfort on every journey.Since you are interested in the T2, could you please provide your full name so I can help you move forward with your enquiry?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-034",
+      "question": "Does the T2 have ADAS Level 2?",
+      "expectedKeywords": [
+        "yes",
+        "ADAS Level 2",
+        "safety",
+        "comfort"
+      ],
+      "matchedKeywords": [
+        "yes",
+        "ADAS Level 2",
+        "safety"
+      ],
+      "missingKeywords": [
+        "comfort"
+      ],
+      "matchPercentage": 75,
+      "actualResponse": "Yes, the T2 is equipped with an advanced ADAS Level 2 system to enhance your safety on the road.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-035",
+      "question": "Which is the highest variant available?",
+      "expectedKeywords": [
+        "Deluxe",
+        "top",
+        "premium features",
+        "technology"
+      ],
+      "matchedKeywords": [
+        "top",
+        "premium features"
+      ],
+      "missingKeywords": [
+        "Deluxe",
+        "technology"
+      ],
+      "matchPercentage": 50,
+      "actualResponse": "The T2 is our top-of-the-range model, and it is available in a high-specification trim that includes all the premium features we have discussed.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-036",
+      "question": "Is there a luxury edition?",
+      "expectedKeywords": [
+        "Deluxe",
+        "top-of-the-range",
+        "luxury",
+        "premium features"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "Deluxe",
+        "top-of-the-range",
+        "luxury",
+        "premium features"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "The T2 comes very well-equipped as standard, offering a premium and luxurious experience with all the features we have discussed.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-039",
+      "question": "Is the T2 available in red?",
+      "expectedKeywords": [
+        "selection of colours",
+        "colour",
+        "availability"
+      ],
+      "matchedKeywords": [
+        "colour"
+      ],
+      "missingKeywords": [
+        "selection of colours",
+        "availability"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is available in several striking colours, though it is not currently offered in red.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-040",
+      "question": "Do you have a matte black edition?",
+      "expectedKeywords": [
+        "range of finishes",
+        "matte",
+        "availability"
+      ],
+      "matchedKeywords": [
+        "matte"
+      ],
+      "missingKeywords": [
+        "range of finishes",
+        "availability"
+      ],
+      "matchPercentage": 33.33,
+      "actualResponse": "The T2 is currently available in a sophisticated Midnight Black finish, but it does not come in a factory matte black edition.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-041",
+      "question": "Can I order a custom blue colour?",
+      "expectedKeywords": [
+        "factory colours",
+        "no custom colour",
+        "available colours"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "factory colours",
+        "no custom colour",
+        "available colours"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "Unfortunately, we do not offer custom paint orders, as our vehicles come in a set range of colours to ensure the highest quality finish.To help me finalise your details so that a dealer can contact you, may I please have your full name?",
+      "status": "FAIL"
+    },
+    {
+      "testCaseId": "TC-T2-043",
+      "question": "How many T2s are available in Cape Town?",
+      "expectedKeywords": [
+        "stock levels",
+        "Cape Town",
+        "local availability"
+      ],
+      "matchedKeywords": [],
+      "missingKeywords": [
+        "stock levels",
+        "Cape Town",
+        "local availability"
+      ],
+      "matchPercentage": 0,
+      "actualResponse": "Stock availability at specific dealerships changes frequently, so it is best to have a consultant check the current inventory for you.To help me connect you with the right team in the Western Cape, may I please have your full name?",
+      "status": "FAIL"
+    }
+  ]
+}

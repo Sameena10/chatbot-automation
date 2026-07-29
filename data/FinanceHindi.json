@@ -1,0 +1,125 @@
+[
+    {
+        "testCaseId": "TC-FIN-001",
+        "category": "Finance",
+        "message": "Aapke paas kya finance options available hain?",
+        "keywords": [
+            "finance",
+            "major banks",
+            "cash purchase",
+            "new vehicle"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-002",
+        "category": "Finance",
+        "message": "Main finance choose karunga.",
+        "keywords": [
+            "finance",
+            "brand new",
+            "pre-owned",
+            "vehicle"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-003",
+        "category": "Vehicle Selection",
+        "message": "Mujhe ek nayi gaadi mein interest hai.",
+        "keywords": [
+            "Jetour",
+            "colour",
+            "preference"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-004",
+        "category": "Vehicle Selection",
+        "message": "Mujhe black colour chahiye.",
+        "keywords": [
+            "black",
+            "Western Cape",
+            "city",
+            "dealer"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-005",
+        "category": "Dealer Locator",
+        "message": "Centre ke paas jo nearest dealer ho wahi theek hai.",
+        "keywords": [
+            "Harbour Arch",
+            "Cape Town",
+            "dealer",
+            "Dashing",
+            "X70 Plus",
+            "T1",
+            "T2"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-006",
+        "category": "Trade-In",
+        "message": "T1 model chahiye.",
+        "keywords": [
+            "T1",
+            "trade-in",
+            "make",
+            "model",
+            "year",
+            "mileage"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-007",
+        "category": "Trade-In",
+        "message": "Meri gaadi X70 Plus hai, 2024 model, aur 9000 km chali hai.",
+        "keywords": [
+            "Comfort",
+            "Luxury",
+            "Sport",
+            "variant"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-008",
+        "category": "Finance Application",
+        "message": "Comfort variant chahiye.",
+        "keywords": [
+            "deposit",
+            "finance",
+            "application"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-009",
+        "category": "Finance Application",
+        "message": "Mera deposit R9,000 hoga.",
+        "keywords": [
+            "deposit",
+            "representative",
+            "Harbour Arch",
+            "contact"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-010",
+        "category": "Finance Application",
+        "message": "Actually mera deposit $600 hai.",
+        "keywords": [
+            "$600",
+            "deposit",
+            "representative",
+            "contact"
+        ]
+    },
+    {
+        "testCaseId": "TC-FIN-011",
+        "category": "Conversation Closure",
+        "message": "Theek hai.",
+        "keywords": [
+            "thank",
+            "help",
+            "wonderful day"
+        ]
+    }
+]

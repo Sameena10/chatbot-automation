@@ -1,0 +1,185 @@
+[
+  {
+    "testCaseId": "TC-FIN-001",
+    "question": "Aapke paas kya finance options available hain?",
+    "expectedKeywords": [
+      "finance",
+      "major banks",
+      "cash purchase",
+      "new vehicle"
+    ],
+    "missingKeywords": [
+      "major banks",
+      "cash purchase",
+      "new vehicle"
+    ],
+    "actualResponse": "Hamare paas Jetour ke liye behtareen finance options available hain jo aapki zarooraton ke mutabiq customize kiye ja sakte hain. Is process ko shuru karne ke liye, kya main aapka poora naam jaan sakta hoon?"
+  },
+  {
+    "testCaseId": "TC-FIN-002",
+    "question": "Main finance choose karunga.",
+    "expectedKeywords": [
+      "finance",
+      "brand new",
+      "pre-owned",
+      "vehicle"
+    ],
+    "missingKeywords": [
+      "brand new",
+      "pre-owned",
+      "vehicle"
+    ],
+    "actualResponse": "Theek hai, main samajh gaya ki aap finance ka option chunna chahte hain. Kya aap mujhe apna poora naam bata sakte hain taaki main aapki file aage badha sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-003",
+    "question": "Mujhe ek nayi gaadi mein interest hai.",
+    "expectedKeywords": [
+      "Jetour",
+      "colour",
+      "preference"
+    ],
+    "missingKeywords": [
+      "Jetour",
+      "colour",
+      "preference"
+    ],
+    "actualResponse": "Bahut badhiya, nayi gaadi lene ka faisla achha hai. Kya aap mujhe apna poora naam bata sakte hain taaki main aapki jaankari sahi se darj kar sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-004",
+    "question": "Mujhe black colour chahiye.",
+    "expectedKeywords": [
+      "black",
+      "Western Cape",
+      "city",
+      "dealer"
+    ],
+    "missingKeywords": [
+      "Western Cape",
+      "city",
+      "dealer"
+    ],
+    "actualResponse": "Black colour ek bahut hi shandaar choice hai. Kya aap mujhe apna poora naam bata sakte hain taaki main aapki details ko aage badha sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-005",
+    "question": "Centre ke paas jo nearest dealer ho wahi theek hai.",
+    "expectedKeywords": [
+      "Harbour Arch",
+      "Cape Town",
+      "dealer",
+      "Dashing",
+      "X70 Plus",
+      "T1",
+      "T2"
+    ],
+    "missingKeywords": [
+      "Harbour Arch",
+      "Cape Town",
+      "Dashing",
+      "X70 Plus",
+      "T1",
+      "T2"
+    ],
+    "actualResponse": "Zaroor, main aapke liye nazdeeki dealer dhoondhne mein madad kar sakta hoon. Iske liye kya aap mujhe bata sakte hain ki aap kis shehar ya province mein rehte hain?"
+  },
+  {
+    "testCaseId": "TC-FIN-006",
+    "question": "T1 model chahiye.",
+    "expectedKeywords": [
+      "T1",
+      "trade-in",
+      "make",
+      "model",
+      "year",
+      "mileage"
+    ],
+    "missingKeywords": [
+      "trade-in",
+      "make",
+      "model",
+      "year",
+      "mileage"
+    ],
+    "actualResponse": "T1 ek behtareen aur mazboot choice hai. Kya aap mujhe apna poora naam bata sakte hain taaki main aapki details ko aage badha sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-007",
+    "question": "Meri gaadi X70 Plus hai, 2024 model, aur 9000 km chali hai.",
+    "expectedKeywords": [
+      "Comfort",
+      "Luxury",
+      "Sport",
+      "variant"
+    ],
+    "missingKeywords": [
+      "Comfort",
+      "Luxury",
+      "Sport",
+      "variant"
+    ],
+    "actualResponse": "Yeh jaankari dene ke liye shukriya, yeh trade-in ke liye bahut kaam aayegi. Ab aage badhne ke liye kya aap mujhe apna poora naam bata sakte hain?"
+  },
+  {
+    "testCaseId": "TC-FIN-008",
+    "question": "Comfort variant chahiye.",
+    "expectedKeywords": [
+      "deposit",
+      "finance",
+      "application"
+    ],
+    "missingKeywords": [
+      "deposit",
+      "finance",
+      "application"
+    ],
+    "actualResponse": "Got it, noted that you are interested in the Comfort variant for your T1. To help me get everything ready for you, could you please provide your full name?"
+  },
+  {
+    "testCaseId": "TC-FIN-009",
+    "question": "Mera deposit R9,000 hoga.",
+    "expectedKeywords": [
+      "deposit",
+      "representative",
+      "Harbour Arch",
+      "contact"
+    ],
+    "missingKeywords": [
+      "representative",
+      "Harbour Arch",
+      "contact"
+    ],
+    "actualResponse": "Shukriya, maine aapka deposit amount note kar liya hai. Ab kya aap mujhe apna poora naam bata sakte hain taaki main aapki file aage badha sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-010",
+    "question": "Actually mera deposit $600 hai.",
+    "expectedKeywords": [
+      "$600",
+      "deposit",
+      "representative",
+      "contact"
+    ],
+    "missingKeywords": [
+      "representative",
+      "contact"
+    ],
+    "actualResponse": "Theek hai, maine aapka deposit $600 note kar liya hai. Kya aap mujhe ab apna poora naam bata sakte hain taaki main aapki file aage badha sakun?"
+  },
+  {
+    "testCaseId": "TC-FIN-011",
+    "question": "Theek hai.",
+    "expectedKeywords": [
+      "thank",
+      "help",
+      "wonderful day"
+    ],
+    "missingKeywords": [
+      "thank",
+      "help",
+      "wonderful day"
+    ],
+    "actualResponse": "Bahut achha, kya aap ab apna poora naam bata sakte hain taaki main aapki jaankari ko aage badha sakun?"
+  }
+]

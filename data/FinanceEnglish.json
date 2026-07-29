@@ -1,0 +1,111 @@
+{
+    "journey": "Finance and Trade-In Journey",
+    "testCases": [
+        {
+            "id": "TC-FIN-001",
+            "userMessage": "What financing options do you offer?",
+            "expectedKeywords": [
+                "finance",
+                "major banks",
+                "cash purchase",
+                "new vehicle"
+            ]
+        },
+        {
+            "id": "TC-FIN-002",
+            "userMessage": "I will be choosing finance.",
+            "expectedKeywords": [
+                "finance",
+                "brand new",
+                "pre-owned"
+            ]
+        },
+        {
+            "id": "TC-FIN-003",
+            "userMessage": "I'm interested in a new vehicle.",
+            "expectedKeywords": [
+                "new Jetour",
+                "colour",
+                "preference"
+            ]
+        },
+        {
+            "id": "TC-FIN-004",
+            "userMessage": "I want it in black.",
+            "expectedKeywords": [
+                "black",
+                "Western Cape",
+                "city",
+                "nearest dealer"
+            ]
+        },
+        {
+            "id": "TC-FIN-005",
+            "userMessage": "Any dealer nearest to the centre.",
+            "expectedKeywords": [
+                "SMG Jetour Harbour Arch",
+                "dealer",
+                "model"
+            ]
+        },
+        {
+            "id": "TC-FIN-006",
+            "userMessage": "T1",
+            "expectedKeywords": [
+                "T1",
+                "trade-in",
+                "make",
+                "model",
+                "year",
+                "mileage"
+            ]
+        },
+        {
+            "id": "TC-FIN-007",
+            "userMessage": "X70 Plus, 2024, 9000 km.",
+            "expectedKeywords": [
+                "Comfort",
+                "Luxury",
+                "Sport",
+                "variant"
+            ]
+        },
+        {
+            "id": "TC-FIN-008",
+            "userMessage": "Comfort",
+            "expectedKeywords": [
+                "deposit",
+                "finance application"
+            ]
+        },
+        {
+            "id": "TC-FIN-009",
+            "userMessage": "My deposit is R9,000.",
+            "expectedKeywords": [
+                "deposit",
+                "representative",
+                "SMG Jetour Harbour Arch",
+                "contact"
+            ]
+        },
+        {
+            "id": "TC-FIN-010",
+            "userMessage": "Actually, my deposit is $600.",
+            "expectedKeywords": [
+                "600",
+                "deposit",
+                "representative",
+                "contact"
+            ]
+        },
+        {
+            "id": "TC-FIN-011",
+            "userMessage": "OK",
+            "expectedKeywords": [
+                "thank",
+                "help",
+                "wonderful day"
+            ]
+        }
+    ]
+}
