@@ -1,4 +1,4 @@
-class ChatbotPage {
+class Chatbot{
 
     constructor(page) {
 
