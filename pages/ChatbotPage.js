@@ -22,7 +22,7 @@ class Chatbot{
     }
 
     async navigate() {
-
+console.log("test 123 multiple commit")
         await this.page.goto(
             'https://test2.logimeter.com/jetour.html'
         );
