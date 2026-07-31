@@ -21,14 +21,14 @@ class Chatbot{
             );
     }
 
-    async navigate() {
+    async navigatePage() {
 console.log("test 123 multiple commit")
         await this.page.goto(
             'https://test2.logimeter.com/jetour.html'
         );
     }
 
-    async openChatbot() {
+    async openChatbotPage() {
 
         await this.chatButton.waitFor({
             state: 'visible'
@@ -55,7 +55,7 @@ console.log("test 123 multiple commit")
         await this.messageInput.press('Enter');
     }
 
-    async getAllResponses() {
+    async getAllResponsesPAge() {
 
         return await this.botResponses
             .allTextContents();
