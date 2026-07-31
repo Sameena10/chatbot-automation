@@ -55,7 +55,7 @@ console.log("test 123 multiple commit")
         await this.messageInput.press('Enter');
     }
 
-    async getAllResponsesPAge() {
+    async getAllResponsesPAgetochecknew() {
 
         return await this.botResponses
             .allTextContents();
@@ -87,8 +87,8 @@ console.log("test 123 multiple commit")
         );
 
         // Wait until response becomes stable
-        let previousText = '';
-        let stableCount = 0;
+        let previousTextfor = '';
+        let stableCounts = 0;
 
         while (stableCount < 5) {
 
@@ -96,7 +96,7 @@ console.log("test 123 multiple commit")
                 await this.botResponses
                     .allTextContents();
 
-            const latestText =
+            const latestTexts =
                 responses[
                 responses.length - 1
                 ] || '';
