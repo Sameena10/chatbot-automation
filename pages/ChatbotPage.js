@@ -7,6 +7,7 @@ class Chatbot{
         this.chatButton =
             page.locator('#lm-chat-button');
 
+console.log("test 123 multiple commit")
 
         this.messageInput =
             page.getByRole(
@@ -14,6 +15,7 @@ class Chatbot{
                 { name: 'Type a message...' }
             );
 
+console.log("test 123 multiple commit")
 
         this.botResponses =
             page.locator(
