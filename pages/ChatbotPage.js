@@ -7,6 +7,9 @@ class Chatbot{
         this.chatButton =
             page.locator('#lm-chat-button');
 
+console.log("test 123 multiple commit")
+console.log("test 123 multiple commit")
+
 
         this.messageInput =
             page.getByRole(
@@ -14,6 +17,7 @@ class Chatbot{
                 { name: 'Type a message...' }
             );
 
+console.log("test 123 multiple commit")
 
         this.botResponses =
             page.locator(
@@ -42,6 +46,8 @@ console.log("test 123 multiple commit")
         await this.messageInput.waitFor({
             state: 'visible'
         });
+        console.log("test 123 multiple commit")
+
 
         await this.messageInput.click();
         await this.messageInput.focus();
@@ -85,6 +91,8 @@ console.log("test 123 multiple commit")
                 timeout: 120000
             }
         );
+console.log("test 123 multiple commit")
+console.log("test 123 multiple commit")
 
         // Wait until response becomes stable
         let previousText = '';
