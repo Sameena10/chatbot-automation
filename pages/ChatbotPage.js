@@ -40,6 +40,15 @@ console.log("test 123 multiple commit")
             state: 'visible'
         });
 console.log("test 123 multiple commit")
+console.log("test 123 multiple commit")
+
+console.log("test 123 multiple commit")
+
+console.log("test 123 multiple commit")
+
+console.log("test 123 multiple commit")
+
+console.log("test 123 multiple commit")
 
         await this.chatButton.click();
     }
@@ -61,6 +70,12 @@ console.log("test 123 multiple commit")
         await this.messageInput.type(message, {
             delay: 50
         });
+        console.log("test 123 multiple commit")
+
+        console.log("test 123 multiple commit")
+
+        console.log("test 123 multiple commit")
+
 
         await this.messageInput.press('Enter');
     }
