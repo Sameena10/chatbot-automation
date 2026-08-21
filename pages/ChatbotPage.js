@@ -23,6 +23,8 @@ console.log("test 123 multiple commit")
             page.locator(
                 '.lm-message.bot .lm-bubble'
             );
+            console.log("test 123 multiple commit")
+
     }
 
     async navigatePagefrom() {
@@ -37,6 +39,7 @@ console.log("test 123 multiple commit")
         await this.chatButton.waitFor({
             state: 'visible'
         });
+console.log("test 123 multiple commit")
 
         await this.chatButton.click();
     }
@@ -47,6 +50,7 @@ console.log("test 123 multiple commit")
             state: 'visible'
         });
         console.log("test 123 multiple commit")
+console.log("test 123 multiple commit")
 
 
         await this.messageInput.click();
