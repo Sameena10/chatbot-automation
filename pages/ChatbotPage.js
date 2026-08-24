@@ -9,12 +9,16 @@ class Chatbot{
 
 console.log("test 123 multiple commit")
 console.log("test 123 multiple commit")
+console.log("test 123 multiple commit")
+
 
 
         this.messageInput =
             page.getByRole(
                 'textbox',
                 { name: 'Type a message...' }
+
+
             );
 
 console.log("test 123 multiple commit")
@@ -24,6 +28,10 @@ console.log("test 123 multiple commit")
                 '.lm-message.bot .lm-bubble'
             );
             console.log("test 123 multiple commit")
+            console.log("test 123 multiple commit")
+
+            console.log("test 123 multiple commit")
+
 
     }
 
@@ -38,6 +46,8 @@ console.log("test 123 multiple commit")
 
         await this.chatButton.waitFor({
             state: 'visible'
+
+
         });
 console.log("test 123 multiple commit")
 console.log("test 123 multiple commit")
@@ -84,6 +94,8 @@ console.log("test 123 multiple commit")
 
         return await this.botResponses
             .allTextContents();
+                    console.log("test 123 multiple commit")
+
     }
 
     async waitForNewResponse(oldCount) {
