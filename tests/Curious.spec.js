@@ -55,6 +55,7 @@ test('Validate Chatbot Responses', async ({ page }) => {
         for (const keyword of item.expectedKeywords) {
 
             console.log(`Checking Keyword -> ${keyword}`);
+            console.log(`Checking Keyword -> ${keyword}`);
 
             if (
                 response
